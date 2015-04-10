@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBandMan.Android", "SuperBandMan.Android\SuperBandMan.Android.csproj", "{6E49321A-D00E-4A40-8830-DD6588AF6013}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2620F5E-DC59-403F-896A-0F5CB5C9DC49}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBandMan.Android.Tests", "SuperBandMan.Android.Tests\SuperBandMan.Android.Tests.csproj", "{AED13922-AE46-4806-AC7F-7FBED270AF7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +25,12 @@ Global
 		{6E49321A-D00E-4A40-8830-DD6588AF6013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E49321A-D00E-4A40-8830-DD6588AF6013}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E49321A-D00E-4A40-8830-DD6588AF6013}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AED13922-AE46-4806-AC7F-7FBED270AF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED13922-AE46-4806-AC7F-7FBED270AF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED13922-AE46-4806-AC7F-7FBED270AF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED13922-AE46-4806-AC7F-7FBED270AF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
